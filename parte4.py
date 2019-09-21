@@ -11,4 +11,4 @@ def perfect_number(n):
     print("is not a perfect number")
 
 n=int(input("digite el numero: "))
-is_prime(n)
+perfect_number(n)
