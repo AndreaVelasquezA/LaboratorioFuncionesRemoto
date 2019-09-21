@@ -1,3 +1,4 @@
+
 try:
     base=int(input("digite la base del numero: ")) 
 except ValueError:
@@ -6,14 +7,16 @@ try:
     expo=int(input("digite el exponente del numero: ")) 
 except ValueError:
     print("las letras no tienen potencia")
+
 def a_power_b(base,expo): 
     pot=1
 
-    for i in range (1,expo+1): 
+    while base!=0:
+        for i in range (1,expo+1): 
 
-        pot=pot*base 
+            pot=pot*base 
 
-    return pot 
+        return pot 
 
 
 
